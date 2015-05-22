@@ -10,6 +10,8 @@ body {
 }*/
 
 #banner {
+	width: 90%;
+	margin: 5%;
 	text-align: center;
 	background-color: #753E16;
 	border-radius: 15px;
@@ -24,47 +26,44 @@ h1 {
 	margin: 0;
 }
 
+#char-select {
+	width: 90%;
+	margin: 0 5%;
+	position: relative;
+	height: 30%;
+}
+
 #char-select div {
-	display: inline;
-	margin: .09em;
+
 }
 
 #char-1 {
-	position: relative;
-}
-
-#char-1 img:first-child {
 	margin: 0 auto;
-	display: block;
+	width: 30%;
 }
 
 #char-2 {
-	position: relative;
-	float: left;
+	
 }
 
 #char-3 {
-	position: relative;
-	float: right;
+
 }
 
 .weapon-1 {
-	width: 50px;
-	position: absolute;
-	top: 1.1em;
-	left: em;
+	width: 100%;
 }
 .weapon-2 {
-	width: 70%;
+	width: 30%;
 	position: absolute;
-	top: 1.3em;
-	left: 1.4em;
+	top: 2em;
+	left: 1em;
 }
 .weapon-3 {
-	width: 75%;
+	width: 30%;
 	position: absolute;
-	top: 1.1em;
-	left: 1.2em;
+	top: 2em;
+	right: 1em;
 }
 
 .menu {
@@ -79,8 +78,48 @@ h1 {
 	margin: 0;
 }
 
+#new-game-menu {
+	width: 45%;
+	margin: 15px auto;
+	padding: 5px;
+	background-color: #333;
+	border-radius: 10px;
+	color: #eee;
+}
+
+#new-game-menu p {
+	text-align: center;
+}
+
+#new-game-menu p {
+	margin: .1em;
+}
+
 #name {
-	width: 35%;
+	width: 60%;
+	border-radius: 5px;
+}
+
+label {
+	font-size: .8em;
+	margin-left: .3em;
+}
+
+#resume {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	padding: 5px;
+}
+
+#delete {
+	float: right;
+	margin-right: 5%;
+	padding: 5px;
+}
+
+footer {
+	clear: both;
 }
 
 /*Path pages css*/
