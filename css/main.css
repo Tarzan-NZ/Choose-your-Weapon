@@ -1,0 +1,136 @@
+body {
+	background: url(../images/);
+	margin: 0;
+}
+
+/*Still don't know what to do with container*/
+/*#container {
+	width: 90%;
+	margin: 0 5%;
+}*/
+
+#banner {
+	text-align: center;
+	background-color: #753E16;
+	border-radius: 15px;
+	font-family: Bilbo;
+	color: #eee;
+	font-size: .9em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	margin: 0;
+}
+
+#char-select div {
+	display: inline;
+	margin: .09em;
+}
+
+#char-1 {
+	position: relative;
+}
+
+#char-1 img:first-child {
+	margin: 0 auto;
+	display: block;
+}
+
+#char-2 {
+	position: relative;
+	float: left;
+}
+
+#char-3 {
+	position: relative;
+	float: right;
+}
+
+.weapon-1 {
+	width: 50px;
+	position: absolute;
+	top: 1.1em;
+	left: em;
+}
+.weapon-2 {
+	width: 70%;
+	position: absolute;
+	top: 1.3em;
+	left: 1.4em;
+}
+.weapon-3 {
+	width: 75%;
+	position: absolute;
+	top: 1.1em;
+	left: 1.2em;
+}
+
+.menu {
+	text-align: center;
+	margin: .3em 0;
+	background-color: #333;
+	border-radius: 10px;
+	color: #eee;
+}
+
+.menu p {
+	margin: 0;
+}
+
+#name {
+	width: 35%;
+}
+
+/*Path pages css*/
+
+.path-img {
+	width: 90%;
+	margin: 0 5%;
+}
+
+.path-img img {
+	max-width: 100%;
+}
+
+.path-img p {
+	text-align: center;
+	margin: 0;
+}
+
+#monster-text {
+	background-color: #333;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#weapon-select {
+	width: 90%;
+	margin: 5%;
+}
+
+#weapon-select img {
+	width: 30%;
+}
+
+#choice-1 {
+	display: inline;
+	width: 30%;
+	box-sizing: border-box;
+	margin: .2em;
+}
+
+#choice-2 {
+	display: inline;
+	width: 30%;
+	box-sizing: border-box;
+	margin: .2em;
+}
+
+#choice-3 {
+	display: inline;
+	width: 30%;
+	box-sizing: border-box;
+	margin: .2em;	
+}
