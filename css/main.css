@@ -1,5 +1,5 @@
 body {
-	background: url(../images/);
+	background: url(../images/png/banner-bg.png);
 	margin: 0;
 }
 
@@ -10,16 +10,15 @@ body {
 }*/
 
 #banner {
-	width: 90%;
-	margin: 5%;
+	width: 80%;
+	margin: 2% 10%;
 	text-align: center;
 	background-color: #753E16;
 	border-radius: 15px;
 	font-family: Bilbo;
 	color: #eee;
 	font-size: .9em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: .8em 0;
 }
 
 h1 {
@@ -39,31 +38,29 @@ h1 {
 
 #char-1 {
 	margin: 0 auto;
-	width: 30%;
+	width: 35%;
 }
 
 #char-2 {
-	
 }
 
 #char-3 {
-
 }
 
 .weapon-1 {
 	width: 100%;
 }
 .weapon-2 {
-	width: 30%;
+	width: 35%;
 	position: absolute;
-	top: 2em;
-	left: 1em;
+	top: 2.5em;
+	left: 0;
 }
 .weapon-3 {
-	width: 30%;
+	width: 35%;
 	position: absolute;
-	top: 2em;
-	right: 1em;
+	top: 2.5em;
+	right: 0;
 }
 
 .menu {
@@ -139,6 +136,9 @@ footer {
 }
 
 #monster-text {
+	color: #c60f01;
+	padding-top: .1em;
+	padding-bottom: .1em;
 	background-color: #333;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
@@ -171,5 +171,28 @@ footer {
 	display: inline;
 	width: 30%;
 	box-sizing: border-box;
-	margin: .2em;	
+	margin: .2em;
+}
+
+#button-menu {
+	height: 30%;
+	width: 90%;
+}
+
+button {
+	width: 80%;
+	height: 2em;
+	margin: 2% 10%;
+	background-color: #333;
+	color: #c0392b;
+	font-size: 1.7em;
+	border: none;
+	border-radius: 18px;
+}
+
+#cr {
+	background-color: #333;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
