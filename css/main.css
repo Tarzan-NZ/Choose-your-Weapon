@@ -118,7 +118,7 @@ label {
 	padding: 5px;
 }
 
-footer {
+#howto {
 	width: 90%;
 	border-radius:10px;
 	border-top-left-radius:10px;
@@ -160,6 +160,7 @@ footer a {
 
 .path-img img {
 	max-width: 100%;
+	display: block;
 }
 
 .path-img p {
@@ -169,8 +170,8 @@ footer a {
 
 #monster-text {
 	color: #c60f01;
-	padding-top: .1em;
-	padding-bottom: .1em;
+	padding-top: .2em;
+	padding-bottom: .2em;
 	background-color: #333;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
@@ -227,4 +228,22 @@ button {
 	text-align: center;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+}
+
+/*dead end css*/
+
+.dead-img {
+	width: 90%;
+	margin: 0 5%;
+	text-align: center;
+}
+
+.dead-img img {
+		max-width: 100%;
+		margin: 0;
+		display: block;
+}
+
+.dead-img p {
+	margin: .2em;
 }
