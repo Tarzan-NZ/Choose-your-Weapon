@@ -4,7 +4,8 @@
 
 // Set up our pageValue variable that we will use to save game.
 // Leave it blank so we can save player progress to local storage on save game button click
-var pageValue = '';
+var pageValue = document.getElementById('')
+var char_name = document.getElementById('#name'); 
 
 // Listen to the save game button for clicks
 // and run the saveGame function
@@ -22,7 +23,7 @@ $('.load-game').click(loadGame);
 // Create function to save page title in local storage
 if (localStorage.getItem) {};
 
-// var value = $.jstoragee.get("key");
+// var value = $.jstorage.get("key");
 // if(!value){
 	// if not - load the data from the server 
 	// value = load_data_from_server()
@@ -31,9 +32,12 @@ if (localStorage.getItem) {};
 //}
 
 $(document).ready(function(){
-
+	$('.save-game').click(function() {
+		localStorage.setItem('Name', char_name)
+	});
 
 });
+
 
 // Save Game button will have SaveGame function attached
 // that will grab current page title and save it to local storage
