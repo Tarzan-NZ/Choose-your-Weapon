@@ -79,7 +79,7 @@ h1 {
 
 .menu {
 	text-align: center;
-	margin: .3em 0;
+	margin: 1em 0;
 	background-color: #333;
 	border-radius: 10px;
 	color: #eee;
@@ -140,11 +140,12 @@ label {
 	border-top-left-radius:10px;
 	border-top-right-radius: 10px;
 	margin: 5%;
+	margin-top: 15%;
 	margin-bottom: 0;
 	clear: both;
 	background-color: #333;
-	position: absolute;
-	bottom: 0;
+/*	position: absolute;
+	bottom: 0;*/
 	text-align: center;
 	color: #eee;
 }
@@ -246,11 +247,21 @@ button {
 	border-top-right-radius: 5px;
 }
 
-/*Media Queries*/
 
-@media screen and (max-width: 370px) {
+@media screen and (min-width: 370px) and (max-width: 900px) {
 
+	.menu {
+		margin-bottom: .5em 0;
+	}
 
+	.howto
+
+}
+
+/*Tablet sizes
+everything is a big too big and takes up too much screen space
+so char select buttons and menu buttons need to be smaller or scale better*/
+@media screen and (min-width: 740) {
 
 }
 
