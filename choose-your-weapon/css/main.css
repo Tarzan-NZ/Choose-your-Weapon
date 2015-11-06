@@ -246,6 +246,15 @@ button {
 	border-top-right-radius: 5px;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width: 370px) {
+
+
+
+}
+
+
 /*dead end css*/
 
 .dead-img {
